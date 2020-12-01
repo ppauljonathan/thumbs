@@ -9,7 +9,7 @@ def tu():
     img.title("ex")
     img.geometry("100x100")
     img.resizable(False,False)
-    bt=Button(img,image=a).pack(side="left")
+    Button(img,image=a).pack(side="left")
 
 
 def td():
@@ -17,7 +17,7 @@ def td():
     img.title("ex")
     img.geometry("100x100")
     img.resizable(False,False)
-    bt=Button(img,image=b).pack(side="left")
+    Button(img,image=b).pack(side="left")
 
 a=PhotoImage(file="./a.png")
 Button(window,image=a,command=tu).pack(side="left")
